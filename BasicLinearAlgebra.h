@@ -597,25 +597,25 @@ Matrix<dim,dim,MemT> &Invert(Matrix<dim,dim,MemT> &A, int *res = NULL)
 
 ////////////////////////////////////////////////////////////////// Insertion ///////////////////////////////////////////////////////////////////
 
-inline Print &operator <<(Print &strm, const int obj)
-{
-    strm.print(obj); return strm;
-}
+// inline Print &operator <<(Print &strm, const int obj)
+// {
+//     strm.print(obj); return strm;
+// }
 
-inline Print &operator <<(Print &strm, const float obj)
-{
-    strm.print(obj); return strm;
-}
+// inline Print &operator <<(Print &strm, const float obj)
+// {
+//     strm.print(obj); return strm;
+// }
 
-inline Print &operator <<(Print &strm, const char *obj)
-{
-    strm.print(obj); return strm;
-}
+// inline Print &operator <<(Print &strm, const char *obj)
+// {
+//     strm.print(obj); return strm;
+// }
 
-inline Print &operator <<(Print &strm, const char obj)
-{
-    strm.print(obj); return strm;
-}
+// inline Print &operator <<(Print &strm, const char obj)
+// {
+//     strm.print(obj); return strm;
+// }
 
 // Stream inserter operator for printing to strings or the serial port
 template<int rows, int cols, class MemT>
